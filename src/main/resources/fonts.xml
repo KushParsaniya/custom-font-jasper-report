@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fontFamilies>
-    <fontFamily name="NotoSansGujarati">
+    <fontFamily name="EnglishFont">
+        <normal>classpath:/fonts/Roboto-Black.ttf</normal>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+    </fontFamily>
+    <fontFamily name="GujaratiFont">
         <normal>classpath:/fonts/NotoSansGujarati_Condensed-Black.ttf</normal>
         <pdfEncoding>Identity-H</pdfEncoding>
         <pdfEmbedded>true</pdfEmbedded>
     </fontFamily>
-
 </fontFamilies>

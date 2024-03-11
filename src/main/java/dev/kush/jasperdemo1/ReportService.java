@@ -12,11 +12,16 @@ import java.util.*;
 public class ReportService {
 
     private final List<Employee> employees = List.of(
-            new Employee(1, "કુશ", "Parsaniya", "kush@gmail.com"),
-            new Employee(2, "એબીસી", "def", "abc@gmail.com")
+            new Employee(1, "કુશ", "કુશ", "kush@gmail.com"),
+            new Employee(2, "કુશ", "કુશ", "kush@gmail.com"),
+
+            new Employee(3, "એબીસી", "કુશ", "abc@gmail.com")
     );
 
-
+//    private final List<Employee> employees = List.of(
+//            new Employee(1, "kush", "Parsaniya", "kush@gmail.com"),
+//            new Employee(2, "abc", "def", "abc@gmail.com")
+//    );
 
     public String generateReport() throws FileNotFoundException, JRException {
         String path = "C:\\Users\\Admin\\Desktop\\studentResult\\employees.pdf";
@@ -36,8 +41,4 @@ public class ReportService {
 
         return "Report Generated in path : " + path;
     }
-
-
-
-
 }
